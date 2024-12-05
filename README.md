@@ -1,3 +1,5 @@
+![Trading Bot in Action](https://gyazo.com/ff7d5607dadc1446c62b94e93d0e08b1.gif)
+
 # Trading Bot with GUI and Mock Exchanges
 
 This project is a simulation of a trading bot that interacts with two mock exchanges. It includes a GUI built with Tkinter, allowing you to input parameters and observe key metrics during trading. The mock exchanges simulate order book updates over WebSockets.
@@ -8,11 +10,6 @@ This project is a simulation of a trading bot that interacts with two mock excha
 - [Project Structure](#project-structure)
 - [Setting Up the Environment](#setting-up-the-environment)
 - [Installing Dependencies](#installing-dependencies)
-- [Running the Mock Exchanges](#running-the-mock-exchanges)
-- [Running the Trading Bot GUI](#running-the-trading-bot-gui)
-- [Using the Application](#using-the-application)
-- [Automating with start.bat](#automating-with-startbat)
-- [Troubleshooting](#troubleshooting)
 - [License](#license)
 
 ## Prerequisites
@@ -45,11 +42,6 @@ It's recommended to use a virtual environment to manage your project's dependenc
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
+   ./start.bat
    ```
-### Trigger ./start.bat 
-
-
-
-   
-
 
