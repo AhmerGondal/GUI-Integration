@@ -42,3 +42,10 @@ It's recommended to use a virtual environment to manage your project's dependenc
 
    ```cmd
    cd path\to\your_project
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+
+   
+
+
